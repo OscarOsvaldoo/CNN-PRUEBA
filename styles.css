@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-container a {    
+    padding: 10px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.nav-container ul {
+    list-style: none;
+}
+
+.btn {
+    display: flex;
+    padding-right: 100px;
+}
+
+.nav-container {
+    width: 99;
+    margin: auto;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.img-logo {
+    width: 60px;
+}
+
+/* NAVIGATION */
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+/* NAV LEFT  */
+
+ .nav-bot strong {
+    color: red;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.nav-main ul li a {
+    padding: 7px;
+    border-left: 0.1mm solid #ffffff;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    /* display: none; */
+    z-index: 2;
+}
+
+
+
+/* NOTICE  */
+
+.div_container {
+    display: grid;
+}
+
+
+
+
+.div_container a {
+    
+    padding: 10px;
+    color: #000000;
+}
+
+.div_container ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.div_container nav {
+    width: 79%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.nav-bot {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-bot ul.nav-menu-bottom {
+    flex: 1;
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+/* NAV RIGHT  */
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    /* display: none; */
+}
+
+.btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 5px;
+    /* display:none; */
+}
+
+
+/* GRID DIV  */
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 43% 25% 25%;
+    gap: 0.3em;
+    padding-bottom: 200px;
+
+}
+
+/* LEFT CONT  */
+
+.sliders {
+    padding-left: 150px;
+    width: 90%;
+    padding-top: 25px;
+}
+
+
+
+
+.slider1{
+    display: grid;
+    align-items: start;
+    height: 190px;
+    width: 340px;        
+    padding-top: 29px;
+}
+
+
+
+h1 {
+    padding-left: 150px;
+    
+
+   
+}
+
+.first-left p {
+    padding-left: 150px;
+   
+
+    text-align: left;
+}
+
+.first-left ul {
+    padding-top: 1em;
+    color: rgb(88, 25, 88);
+    list-style: none;
+    padding-left: 150px;
+    padding-right: 5px;
+
+}
+
+/* CENTER CONT  */
+
+.second-center {
+    height: 300px;
+
+}
+
+.second-center hr {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.second-center strong {
+    color: red;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.center-top h2 {
+    padding-bottom: 1em;
+    padding-left: 3px;
+}
+
+.center-bot {
+    height: 330px;       
+}
+
+
+
+.center-bot h2 {
+    
+    padding-left: 3px;
+}
+
+/* RIGHT CONT  */
+
+.right-third, .str {
+    color: red;
+    padding-top: 1em;
+    padding-left: 3px;    
+   }
+
+.right-third, h2, p, strong {
+    padding-top: 1em;
+    padding-left: 5px;
+    margin-right: 15px;
+}
+
+.right-third, hr {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+
+
+
+.img_4 {
+    height: 195px;
+    width: 340px;
+    padding-left: 6px;
+    padding-top: 29px;
+}
+
+
+
+
+.str {
+    color: red;
+    font-size: 11px;
+    padding-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-grid div:hover {
+    /* border: 1px solid black; */
+}
+
+/* img  */
+
+.img_2 {
+    height: 195px;
+    width: 340px;
+    padding-left: 6px;
+    padding-top: 29px;
+}
+
+.img_3 {
+    height: 195px;
+    width: 340px;
+    padding-left: 6px;
+    padding-top: 1em;
+}
+
+/* FOOTER  */
+
+.wrapper {
+    
+    background: #000000;
+    width: 100%;   
+    grid-template-columns: 30% 40% 30%;
+   
+}
+
+
+
+.footer-nav{
+    display: flex;
+    flex: 1;
+    padding-left: 270px;
+}
+
+.container ul {
+    display: flex;    
+    padding: 10px;  
+    text-align: center;
+}
+
+.container ul li {
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container ul li a {
+    padding-left: 5px;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.menu-nav {
+    
+}
+
+.social {
+    text-align: center; 
+    display: flex;
+    padding-left: 630px;
+    color: #ffffff;
+}
+
+.social i {
+    
+    font-size: 210%;
+    color: #ffffff;
+    margin: 1%;
+    padding: 1%;
+}
+
+.social li {
+    display: inline;
+    padding: 15px;
+    border-left: 1px solid #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+footer p {
+    color: #ffffff;
+    padding-left: 700px;
+    
+}
+
+.third-footer p{
+    padding-left: 5px;
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+
+
+.third-footer p {
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 30px;    
+}
+
+
+
+
+.footer ul li a {
+    display: flex;
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.menu-icon ul li a {
+    text-align: center;    
+    width: 300%;
+}
+
+@media (max-width: 700px) {
+
+    .nav-main ul {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #2f3f40;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translate(-400px);
+        transition: transform .5 ease-in-out;
+    }
+
+    .nav-main ul li {
+        padding: 20px;
+        font-size: 14px;
+        border-left: none;
+    }
+
+    .nav-main ul.show {
+        transform: translate(-20px);
+    }
+
+    .nav-main {        
+        padding-left: 0;
+        margin-left: 0;        
+    }    
+
+     strong  {
+        align-content: left;
+    }
+   
+
+    .div-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first-left  {
+        grid-column: 1/-1;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .first-left h1, .first-left p, .first-left ul {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+   
+   
+
+    .sliders {
+        width: 100%;
+         
+               
+    }
+
+    script {
+
+    }
+
+    .footer-nav, .social {
+        padding-left: 0;
+    }
+
+}
+
+
